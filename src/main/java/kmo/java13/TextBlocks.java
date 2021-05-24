@@ -1,9 +1,14 @@
 package kmo.java13;
 
+@SuppressWarnings("ALL")
 public class TextBlocks {
 
-    private static final String HTML = "<html>\r\n" + "<body>\r\n" + "\t<b>Hi All</b>\r\n" + "</body>\r\n" + "</html" +
-            ">\r\n";
+    private static final String HTML = "<html>\r\n" +
+            "<body>\r\n" +
+            "\t<b>Hi All</b>\r\n" +
+            "</body>\r\n" +
+            "</html>" +
+            "\r\n";
 
     private static final String HTML_IN_NICE = """
             <html>
